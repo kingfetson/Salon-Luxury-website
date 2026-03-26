@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière Salon Nairobi | Luxury Hair & Beauty</title>
+  <meta name="description" content="Nairobi's premier luxury hair and beauty salon. Expert colourists, stylists & beauty therapists. Book your transformation today.">
+  <meta name="keywords" content="salon Nairobi, hair salon, luxury beauty, hair colour, braids Nairobi, balayage Kenya">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-script">Lumière</span>
+        <span class="logo-sub">SALON · NAIROBI</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-ctas">
+        <a href="https://wa.me/254700000000?text=Hello%2C%20I%27d%20like%20to%20book%20an%20appointment" class="btn-wa-sm" target="_blank">
+          <i class="fab fa-whatsapp"></i> Book via WhatsApp
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== MOBILE NAV ====== -->
+  <div class="mob-overlay" id="mobOverlay"></div>
+  <nav class="mob-nav" id="mobNav">
+    <button class="mob-close" id="mobClose"><i class="fas fa-times"></i></button>
+    <div class="mob-logo">
+      <span class="logo-script sm">Lumière</span>
+    </div>
+    <ul>
+      <li><a href="#services"     class="m-link">Services</a></li>
+      <li><a href="#gallery"      class="m-link">Gallery</a></li>
+      <li><a href="#about"        class="m-link">About</a></li>
+      <li><a href="#testimonials" class="m-link">Reviews</a></li>
+      <li><a href="#contact"      class="m-link">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/254700000000" class="mob-book-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i> Book Appointment
+    </a>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-grain"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Nairobi's Premier Beauty Destination</p>
+      <h1>
+        Where Beauty<br>
+        <em>Becomes Art.</em>
+      </h1>
+      <p class="hero-desc">Expert stylists, luxury treatments, and a space designed to make you feel extraordinary — every single visit.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Book Appointment</a>
+        <a href="#services" class="btn-outline">Explore Services</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge"><i class="fas fa-award"></i> Est. 2016</div>
+        <div class="badge-div"></div>
+        <div class="badge"><i class="fas fa-star"></i> 4.9 Rating</div>
+        <div class="badge-div"></div>
+        <div class="badge"><i class="fas fa-users"></i> 2,000+ Clients</div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== MARQUEE STRIP ====== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Hair Colouring</span><span class="dot">✦</span>
+      <span>Balayage</span><span class="dot">✦</span>
+      <span>Braiding &amp; Locs</span><span class="dot">✦</span>
+      <span>Keratin Treatment</span><span class="dot">✦</span>
+      <span>Facials</span><span class="dot">✦</span>
+      <span>Manicure &amp; Pedicure</span><span class="dot">✦</span>
+      <span>Bridal Packages</span><span class="dot">✦</span>
+      <span>Hair Extensions</span><span class="dot">✦</span>
+      <span>Hair Colouring</span><span class="dot">✦</span>
+      <span>Balayage</span><span class="dot">✦</span>
+      <span>Braiding &amp; Locs</span><span class="dot">✦</span>
+      <span>Keratin Treatment</span><span class="dot">✦</span>
+      <span>Facials</span><span class="dot">✦</span>
+      <span>Manicure &amp; Pedicure</span><span class="dot">✦</span>
+      <span>Bridal Packages</span><span class="dot">✦</span>
+      <span>Hair Extensions</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ====== SERVICES ====== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Our Expertise</span>
+        <h2>Services We <em>Offer</em></h2>
+        <p>From precision cuts to colour artistry — every service is performed with skill, intention, and love.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="svc-card svc-dark">
+          <div class="svc-icon"><i class="fas fa-scissors"></i></div>
+          <h3>Cut &amp; Style</h3>
+          <p>Precision cuts tailored to your face shape, lifestyle, and personality. Classic to contemporary.</p>
+          <div class="svc-price">From <strong>Ksh 1,500</strong></div>
+          <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-icon"><i class="fas fa-palette"></i></div>
+          <h3>Colour &amp; Balayage</h3>
+          <p>Sun-kissed balayage, bold fashion colour, or natural grey blending — our colourists are artists.</p>
+          <div class="svc-price">From <strong>Ksh 4,500</strong></div>
+          <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-icon"><i class="fas fa-ring"></i></div>
+          <h3>Bridal Packages</h3>
+          <p>Bespoke hair and makeup packages for your big day. Trials, morning-of glam, and full bridal party.</p>
+          <div class="svc-price">From <strong>Ksh 12,000</strong></div>
+          <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-icon"><i class="fas fa-spa"></i></div>
+          <h3>Facials &amp; Skincare</h3>
+          <p>Hydrating, anti-ageing, and brightening facials using professional-grade products suited to your skin.</p>
+          <div class="svc-price">From <strong>Ksh 3,000</strong></div>
+          <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card">
+          <div class="svc-icon"><i class="fas fa-hand-sparkles"></i></div>
+          <h3>Nails &amp; Pedicure</h3>
+          <p>Gel, acrylic, nail art, and spa pedicures. Your hands and feet deserve the same luxury treatment.</p>
+          <div class="svc-price">From <strong>Ksh 1,200</strong></div>
+          <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="svc-card svc-gold">
+          <div class="svc-icon"><i class="fas fa-crown"></i></div>
+          <h3>Braids &amp; Natural Hair</h3>
+          <p>Box braids, knotless, faux locs, twists, and natural hair care — celebrating your authentic texture.</p>
+          <div class="svc-price">From <strong>Ksh 2,500</strong></div>
+          <a href="#contact" class="svc-link">Book Now <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALLERY ====== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-head centered">
+        <span class="eyebrow">Our Work</span>
+        <h2>The <em>Gallery</em></h2>
+        <p>A glimpse into the transformations that leave our chairs every day.</p>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gal-item tall"   style="background-image:url('https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80')"></div>
+      <div class="gal-item"        style="background-image:url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80')"></div>
+      <div class="gal-item"        style="background-image:url('https://images.unsplash.com/photo-1560869713-7d0a29430803?w=600&q=80')"></div>
+      <div class="gal-item wide"   style="background-image:url('https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=900&q=80')"></div>
+      <div class="gal-item"        style="background-image:url('https://images.unsplash.com/photo-1487412947147-5cebf100d6a6?w=600&q=80')"></div>
+      <div class="gal-item tall"   style="background-image:url('https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=80')"></div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-img" style="background-image:url('https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=800&q=80')"></div>
+          <div class="about-stat-card">
+            <span class="stat-num">8</span>
+            <span class="stat-label">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="eyebrow">Our Story</span>
+          <h2>Craft Meets <em>Passion</em></h2>
+          <p>Lumière was born in 2016 from a simple belief: that every person deserves to feel beautiful, seen, and celebrated. We built a space in the heart of Nairobi that blends world-class technique with genuine warmth.</p>
+          <p>Our team of 12 stylists and therapists train continuously at leading academies in Nairobi, London, and Johannesburg — so you always receive the very best.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <i class="fas fa-leaf"></i>
+              <div>
+                <strong>Eco-Conscious</strong>
+                <span>Sustainable, cruelty-free product lines</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>Certified Team</strong>
+                <span>Internationally trained stylists</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-heart"></i>
+              <div>
+                <strong>Client-First</strong>
+                <span>Personalised consultations every visit</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary">Meet Our Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="section testi-section" id="testimonials">
+    <div class="container">
+      <div class="section-head centered">
+        <span class="eyebrow">Kind Words</span>
+        <h2>Loved by <em>Nairobi</em></h2>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p>I've been going to Lumière for three years and they never disappoint. My balayage always gets compliments and the atmosphere is just divine. It's my happy place.</p>
+          <div class="testi-footer">
+            <div class="testi-av">AW</div>
+            <div>
+              <strong>Amina W.</strong>
+              <span>⭐⭐⭐⭐⭐ · Westlands</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-feature">
+          <div class="testi-quote">"</div>
+          <p>They did my entire bridal hair and makeup — from the trial to the wedding morning. The team was so calm and professional. I cried happy tears when I saw myself. Absolute magic.</p>
+          <div class="testi-footer">
+            <div class="testi-av">SK</div>
+            <div>
+              <strong>Stella K.</strong>
+              <span>⭐⭐⭐⭐⭐ · Karen</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p>Best knotless braids I've ever gotten in Nairobi. Neat, long-lasting, and done with so much care. I travel from Kiambu just for this salon — worth every kilometre.</p>
+          <div class="testi-footer">
+            <div class="testi-av">FN</div>
+            <div>
+              <strong>Faith N.</strong>
+              <span>⭐⭐⭐⭐⭐ · Kiambu</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BOOKING / CONTACT ====== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-left">
+          <span class="eyebrow light">Book With Us</span>
+          <h2 class="light">Ready for Your <em>Transformation?</em></h2>
+          <p class="light-p">Fill in the form and we'll confirm your appointment via WhatsApp within 30 minutes. Walk-ins welcome subject to availability.</p>
+
+          <div class="salon-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Location</strong>
+                <span>Westlands Square, 3rd Floor<br>Nairobi, Kenya</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Sat: 8am – 7pm<br>Sun: 10am – 5pm</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/254700000000" target="_blank">+254 700 000 000</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>hello@lumieresalon.co.ke</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <form id="bookingForm" class="booking-form">
+            <div class="field-row">
+              <div class="field-group">
+                <label for="name">Full Name <span>*</span></label>
+                <input type="text" id="name" placeholder="e.g. Aisha Mwangi" required>
+              </div>
+              <div class="field-group">
+                <label for="phone">Phone <span>*</span></label>
+                <input type="tel" id="phone" placeholder="e.g. 0712 345 678" required>
+              </div>
+            </div>
+            <div class="field-group">
+              <label for="service">Service <span>*</span></label>
+              <select id="service" required>
+                <option value="">Select a service</option>
+                <option>Cut &amp; Style</option>
+                <option>Colour &amp; Balayage</option>
+                <option>Braids &amp; Natural Hair</option>
+                <option>Keratin / Relaxer Treatment</option>
+                <option>Facials &amp; Skincare</option>
+                <option>Nails &amp; Pedicure</option>
+                <option>Bridal Package</option>
+                <option>Other / Consultation</option>
+              </select>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date">
+              </div>
+              <div class="field-group">
+                <label for="time">Preferred Time</label>
+                <select id="time">
+                  <option value="">Any time</option>
+                  <option>8:00 AM</option>
+                  <option>9:00 AM</option>
+                  <option>10:00 AM</option>
+                  <option>11:00 AM</option>
+                  <option>12:00 PM</option>
+                  <option>1:00 PM</option>
+                  <option>2:00 PM</option>
+                  <option>3:00 PM</option>
+                  <option>4:00 PM</option>
+                  <option>5:00 PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-group">
+              <label for="notes">Additional Notes</label>
+              <textarea id="notes" rows="3" placeholder="Any special requests, hair concerns, or questions…"></textarea>
+            </div>
+            <button type="submit" id="submitBtn">
+              <i class="fas fa-calendar-check"></i> Confirm Booking
+            </button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          title="Lumière Salon Location"
+          src="https://maps.google.com/maps?q=Westlands%2C%20Nairobi%2C%20Kenya&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-script md">Lumière</span>
+        <p>Nairobi's luxury hair and beauty sanctuary. Where every client leaves feeling extraordinary.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Find Us</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Westlands Square, 3rd Floor, Nairobi</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+254700000000">+254 700 000 000</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/254700000000" target="_blank">WhatsApp Us</a></p>
+        <p><i class="fas fa-clock"></i> Mon–Sat 8am–7pm | Sun 10am–5pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="yr"></span> Lumière Salon Nairobi. All rights reserved.</p>
+      <p>Crafted with <i class="fas fa-heart"></i> for beauty.</p>
+    </div>
+  </footer>
+
+  <!-- ====== FLOATING WHATSAPP ====== -->
+  <a href="https://wa.me/254700000000?text=Hello%2C%20I%27d%20like%20to%20book%20an%20appointment%20at%20Lumi%C3%A8re%20Salon" class="wa-float" target="_blank" aria-label="Book on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tip">Book Now</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
